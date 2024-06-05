@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git para Desarrollo Web: Potencia tu Flujo de Trabajo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <style>
+        body { font-family: sans-serif; }
+        .container { max-width: 800px; margin: 2rem auto; padding: 1.5rem; }
+        h1, h2 { color: #2196F3; } 
+        h1 { text-align: center; margin-bottom: 1.5rem; }
+        code { background-color: #eee; padding: 0.2rem 0.4rem; border-radius: 3px; }
+        ul { list-style: none; padding: 0; } 
+        li::before { content: "• "; } 
+        a { color: #2196F3; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Git para Desarrollo Web: Potencia tu Flujo de Trabajo</h1>
+
+        <p>Git es una herramienta fundamental para cualquier desarrollador web. Te permite:</p>
+        <ul>
+            <li>Gestionar el historial de tu sitio: Realiza un seguimiento de cada cambio en tu código, revierte errores y colabora con otros desarrolladores de manera eficiente.</li>
+            <li>Crear ramas para nuevas funcionalidades: Experimenta con nuevas características sin afectar la versión principal de tu sitio.</li>
+            <li>Implementar cambios de forma segura: Despliega actualizaciones en tu sitio web con confianza, sabiendo que puedes revertir fácilmente si algo sale mal.</li>
+        </ul>
+
+        <h2>Flujo de Trabajo Básico con Git</h2>
+        <ol>
+            <li>
+                <strong>Inicializar un repositorio:</strong>
+                <p>Abre tu terminal y navega hasta la carpeta de tu proyecto. Luego, ejecuta:</p>
+                <code>git init</code>
+            </li>
+            <li>
+                <strong>Agregar cambios al área de preparación (Staging):</strong>
+                <p>Después de hacer cambios en tus archivos, agrega los que deseas incluir en el próximo commit:</p>
+                <code>git add .</code> (para agregar todos los cambios) o <code>git add nombre_archivo</code> (para agregar un archivo específico)
+            </li>
+            <li>
+                <strong>Crear un commit:</strong>
+                <p>Registra los cambios preparados con un mensaje descriptivo:</p>
+                <code>git commit -m "Mensaje descriptivo del commit"</code>
+            </li>
+            <li>
+                <strong>Enviar cambios al repositorio remoto (Push):</strong>
+                <p>Si estás trabajando con un repositorio remoto (como GitHub), envía tus commits:</p>
+                <code>git push origin nombre_rama</code>
+            </li>
+        </ol>
+
+        <h2>Recursos Útiles</h2>
+        <ul>
+            <li><a href="https://git-scm.com/doc" target="_blank">Documentación oficial de Git</a></li>
+            <li><a href="https://try.github.io/" target="_blank">Tutorial interactivo de GitHub</a></li>
+        </ul>
+    </div>
+</body>
+</html>
